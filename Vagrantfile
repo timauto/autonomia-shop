@@ -23,7 +23,7 @@ options = YAML.load_file config[:local]
 
 # check github token
 if options['github_token'].nil? || options['github_token'].to_s.length != 40
-  puts "You must place REAL GitHub token into configuration:\n/yii2-app-advanced/vagrant/config/vagrant-local.yml"
+  puts "You must place REAL GitHub token into configuration:\n/autonomia.test/vagrant/config/vagrant-local.yml"
   exit
 end
 
